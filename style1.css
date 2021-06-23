@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Cardo', serif;
+}
+section{
+    height: 450px;
+    padding-bottom: 150px;
+}
+
+.top-banner{
+    background-image: url(img22/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 40px;
+    color: coral;
+}
+h1 span{
+    color:darkorange;
+    font-size: 45px;
+}
+.anchor-button{
+    text-decoration: navy;
+    background:linear-gradient(55deg, tomato,lightsalmon);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: lavender;
+    font-weight: 800;
+}
+.half-width img{
+    width: 100%;
+}
+p{
+    color:gray;
+}
+h3{
+    font-size:25px;
+    color: gray;
+}
+.dream-area{
+    background-image: url(img22/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.resume{
+    text-decoration: navy;
+    background:linear-gradient(95deg, rgb(243, 41, 5),rgb(255, 126, 74));
+    padding: 10px 40px;
+    border-radius: 10px;
+    color:seashell;
+    font-weight: 800;
+}
+.experinces-area{
+
+    background-image: url(img22/exp-bg2.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.experinces-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 70%;
+}
+h2{
+    color: orange;
+}
+#full-stack{
+    border-left:solid 7px;
+    border-image: linear-gradient(rgb(245, 2, 2), blue) 27
+}
+#baby-web{
+    border-left: solid 7px;
+    border-image-slice: 1;
+    border-image: linear-gradient(blue, red) 27
+
+}
+footer h4{
+    text-align: center;
+    color: orange;
+}
+
